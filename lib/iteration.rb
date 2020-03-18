@@ -36,8 +36,7 @@ def total_even_pairs(src)
   row_index = 0
   while row_index < src.count do 
     element_index = 0 
-    if src[row_index][0] % 2 == 0 && src[row_index][1] % 2 == 0
-      evens_total += src[row_index][0] + src[row_index][1]
+    x
   end
     row_index += 1 
   end
