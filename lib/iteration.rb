@@ -2,6 +2,7 @@ def join_ingredients(src)
  toppings_pref = []
  row_index = 0 
  while row_index < src.count do
+   #while items in new array less than pairs in original array
    element_index = 0
    toppings_pref[row_index] = "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
     row_index += 1
