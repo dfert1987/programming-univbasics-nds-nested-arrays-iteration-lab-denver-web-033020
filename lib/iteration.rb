@@ -32,7 +32,7 @@ larger
 end
 
 def total_even_pairs(src)
-  total = 0 
+  evens_total = 0 
   row_index = 0
   while row_index < src.count do 
     element_index = 0 
@@ -40,7 +40,7 @@ def total_even_pairs(src)
   end
     row_index += 1 
   end
-    total
+    evens_total
   end
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then	    total += src[row_index][0] + src[row_index][1]
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
